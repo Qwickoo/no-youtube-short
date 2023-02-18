@@ -15,7 +15,7 @@
           "https://www.youtube.com/feed/subscriptions",
           "https://www.youtube.com/feed/subscriptions/*"
         ],
-        "js": ["content_script.js"]
+        "js": ["scripts/content_script.js"]
     }
   ]
 }
