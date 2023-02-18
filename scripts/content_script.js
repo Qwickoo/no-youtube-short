@@ -5,7 +5,7 @@ const interval = setInterval(() => {
         const isShort = gridElement.querySelector('.ytd-thumbnail[overlay-style="SHORTS"]');
 
         if (isShort) {
-            gridElement.style.display = 'none';
+            gridElement.remove();
         }
     });
 }, 500);

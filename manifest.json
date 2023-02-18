@@ -12,10 +12,11 @@
   "content_scripts": [
     {
         "matches": [
-          "https://www.youtube.com/feed/subscriptions",
-          "https://www.youtube.com/feed/subscriptions/*"
+          "https://www.youtube.com/*"
         ],
-        "js": ["scripts/content_script.js"]
+        "js": [
+          "scripts/content_script.js"
+        ]
     }
   ]
 }
